@@ -1,4 +1,4 @@
-package com.equipobasquet.android
+package com.equipobasquet.producto4
 
 import android.app.Application
 import android.content.res.Configuration

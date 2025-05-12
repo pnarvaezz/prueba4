@@ -27,7 +27,7 @@
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="myapp"/>
-        <data android:scheme="com.equipobasquet.android"/>
+        <data android:scheme="com.equipobasquet.producto4"/>
       </intent-filter>
     </activity>
   </application>

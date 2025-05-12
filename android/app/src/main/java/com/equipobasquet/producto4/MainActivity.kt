@@ -1,4 +1,4 @@
-package com.equipobasquet.android
+package com.equipobasquet.producto4
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

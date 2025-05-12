@@ -86,9 +86,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.equipobasquet.android'
+    namespace 'com.equipobasquet.producto4'
     defaultConfig {
-        applicationId 'com.equipobasquet.android'
+        applicationId 'com.equipobasquet.producto4'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
