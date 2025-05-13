@@ -61,6 +61,10 @@ function useFirebaseMessaging() {
       const token = await messaging().getToken();
       console.log('FCM Token:', token);
 
+      // 2.1 Suscripción al topic "global"
+      await messaging().subscribeToTopic('global');
+      console.log('Subscribed to topic global');
+
       // 3. Mensajes con la app en primer plano
       const unsubOnMessage = messaging().onMessage(async msg => {
         Alert.alert(
