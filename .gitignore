@@ -53,3 +53,21 @@ android/.cxx
 # Informes de test y logs de ejecucion.
 coverage/
 *.log
+
+# Guarda capturas de iconos/splash generadas automáticamente por Expo y el estado de configuración del simulador; se regenera al vuelo y no es código fuente.
+.expo-shared/
+
+# Carpeta local que crea la CLI cuando usas emuladores; contiene bases de datos temporales y configuraciones específicas de tu máquina.
+.firebase/
+
+# Logs de la CLI (firebase deploy, emulador, etc.). Útiles para depurar, pero cambian en cada ejecución y no son parte del proyecto.
+firebase-debug.log*
+
+# Fichero generado por Gradle con la ruta local de tu SDK de Android; es distinto en cada ordenador y no debe compartirse.
+android/local.properties
+
+# Dependencias compiladas de tus Cloud Functions. Se reinstalan con npm install dentro de functions/; subirlas hincha el repo sin aportar código.
+functions/node_modules/
+
+# Salida JavaScript transpilada desde TypeScript (tsc). Se vuelve a generar en cada despliegue (firebase deploy) y no debería versionarse.
+functions/lib/
